@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@font-face {
+    font-family: 'Raleway';         /** Importation des fonts **/
+    src: url('../fonts/Raleway.ttf');
+} 
+
+html { /** Style du HTML **/
+    margin: auto;
+    background: white;   
+}
+
+header { /**Style du Header**/
+    text-align: center;
+    color: white;
+}
+
+
+body { /** Style du Body **/
+    font-family: 'Raleway';
+    background: #782221;
+    margin: 0 auto;
+    width: 1160px;
+}
+
+.bloc_header img { /** Style de l'image ronde **/
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 6px 6px 25px black;
+    cursor: zoom-in;
+    object-fit: cover;
+}
+
+.bloc_header_info {
+    background: #2c1d27;
+    color: white;
+}
+
+.bloc_header_info ul {
+    padding: 15px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.bloc_header_info li {
+    display: block;
+    flex: 1;
+    color: white;
+    list-style: none;
+}
+
+.bloc_header_info a {
+    color: white;
+    text-decoration: none;
+}
+
+.bloc_header_info a:hover {
+    text-decoration: underline;
+}
+
+.bloc {
+    display: flex;
+    flex-direction: row;
+}
+
+.bloc_left {
+    flex-basis: 30%;
+    margin-right: 30px;
+}
+
+
+.bloc_left h3 {
+    font-family: 'Lato';
+    text-align: left;
+    background: #dbc2a4;
+    padding-left: 15px;
+    padding-block: 5px;
+}
+
+.bloc_left li {
+    color: white;
+}
+
+.bloc_left ul {
+    margin-left: -5px;
+}
+
+.bloc_left p {
+    margin-left: 20px;
+    color: white;
+    text-indent: 30px;
+}
+
+.bloc_global {
+    flex-basis: 70%;
+    background: white;
+    border-right: black 2px solid;
+}
+
+.bloc_global h3 {
+    font-family: 'Lato';
+    text-align: left;
+    background: #dbc2a4;
+    border-left: #782221 10px solid;
+    margin-left: 30px;
+    padding-block: 5px;
+}
+
+.bloc_global h3:hover {
+    border-right: #782221 10px solid;
+
+}
+
+.bloc_global h4 {
+    margin-left: 30px;
+}
+
+.bloc_global ul {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.bloc_global p {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.footer { /** Style du Footer **/
+    display: block;
+    flex-direction: row;
+    text-align: center;
+}
+
+.footer img {
+    width: 32px;
+    height: 32px;
+    margin: auto; 
+    padding-block: 10px;
+    text-align: center;
+    justify-content: center;
+    opacity: 1;
+}
+
+.footer img:hover {
+    opacity: 0.8;
+}
+
+
+.footer small {
+    padding-block: 10px;
+    color: white;
+    text-align: center;
+}
